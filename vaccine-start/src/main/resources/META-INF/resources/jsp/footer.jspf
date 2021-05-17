@@ -7,12 +7,14 @@
 		format : 'dd/mm/yyyy'
 	});
 </script>
-<div>
-	<table class="table-font-style">
-		<td style="width: 35%;"> Total hits : ${footer.total} </td>
-		<td style="width: 35%;"> User Registered : ${footer.added} </td>
-		<td style="width: 30%;"> contact us @ shrikant_soni@hotmail.com </td>
-	</table>
+<div class="footer-block">
+	<div class="table-font-style">
+		<div>
+			<div> Total hits : ${footer.total} </div>
+			<div> User Registered : ${footer.added} </div>
+			<div> contact us @ shrikant_soni@hotmail.com </div>
+		</div>
+	</div>
 </div>
 
 </body>

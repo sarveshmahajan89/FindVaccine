@@ -27,10 +27,10 @@
         			<form:errors path="pin" cssClass="text-warning" />
         </fieldset>
 		<fieldset class="form-group">
-			<form:radiobutton path="vaccinedose" value="dose1" class="form-control"
+			<form:label path="vaccinedose">Please select type of Dose ?</form:label>
+			<form:radiobutton path="vaccinedose" value="dose1" class="form-control radio-button"
 						required="required" /> Dose 1
-			<BR>
-			<form:radiobutton path="vaccinedose" value="dose1" class="form-control"
+			<form:radiobutton path="vaccinedose" value="dose1" class="form-control radio-button"
 						required="required" />Dose 2
 		</fieldset>
 		<button type="submit" class="btn btn-success">Submit</button>

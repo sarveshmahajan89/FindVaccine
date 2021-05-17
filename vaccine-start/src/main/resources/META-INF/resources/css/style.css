@@ -119,3 +119,35 @@ body {
     color: rgb(211, 0, 0);
     text-align: center;
 }
+
+body div form .form-group input.radio-button {
+    display: inline-block;
+    width: 37px;
+    height: 12px;
+    margin: 1px 0px 0px 40px;
+}
+
+body div.container{
+    min-height: 450px;
+}
+.font-white {
+    color: #fff;
+}
+
+div.footer-block {
+    width: 100%;
+}
+div.footer-block div.table-font-style div div:first-child {
+    width: 30%;
+    float: left;
+}
+div.footer-block div.table-font-style div div:nth-child(2) {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+div.footer-block div.table-font-style div div:last-child {
+    width: 30%;
+    float: left;
+    text-align: right;
+}

@@ -8,7 +8,7 @@
 	<br>
 	<br>
 	<div>
-		<p>We do not send any promotional messages, SMS will be sent once per user.</p>
+		<p class="font-white">We do not send any promotional messages, SMS will be sent once per user.</p>
 	</div>
 </div>
 
