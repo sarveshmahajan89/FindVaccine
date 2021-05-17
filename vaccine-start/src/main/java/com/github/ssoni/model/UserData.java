@@ -12,17 +12,19 @@ public class UserData {
     private String pin;
     private Date targetDate;
     private boolean messageSent;
+    private String vaccinedose;
 
     public UserData() {
     }
 
-    public UserData(int age, String userName, String userMob, String pin, Date targetDate, boolean messageSent) {
+    public UserData(int age, String userName, String userMob, String pin, Date targetDate, boolean messageSent, String vaccinedose) {
         this.age = age;
         this.userName = userName;
         this.userMob = userMob;
         this.pin = pin;
         this.targetDate = targetDate;
         this.messageSent = messageSent;
+        this.vaccinedose = vaccinedose;
     }
 
     @Override
@@ -89,5 +91,13 @@ public class UserData {
 
     public void setMessageSent(boolean messageSent) {
         this.messageSent = messageSent;
+    }
+
+    public String getVaccinedose() {
+        return vaccinedose;
+    }
+
+    public void setVaccinedose(String vaccinedose) {
+        this.vaccinedose = vaccinedose;
     }
 }
