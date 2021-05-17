@@ -7,7 +7,7 @@ body {
     height: auto;
 }
 .table-font-style {
-    color: #72b5c2;
+    color: #555;
 }
 
 .form-style {
@@ -28,7 +28,7 @@ body {
     border-radius: 5px;
 }
 .help-option:hover{
-    color: #72b5c2;
+    color: #000;
 }
 
 #card {
@@ -136,6 +136,12 @@ body div.container{
 
 div.footer-block {
     width: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    height: 48px;
+    padding: 12px 3px;
+    position: relative;
+    bottom: 0px;
 }
 div.footer-block div.table-font-style div div:first-child {
     width: 30%;
@@ -150,4 +156,7 @@ div.footer-block div.table-font-style div div:last-child {
     width: 30%;
     float: left;
     text-align: right;
+}
+div.container div.how-it-works {
+    margin-bottom: 20px;
 }
