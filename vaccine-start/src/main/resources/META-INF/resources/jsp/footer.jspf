@@ -10,9 +10,9 @@
 <div class="footer-block">
 	<div class="table-font-style">
 		<div>
-			<div> Total hits : ${footer.total} </div>
-			<div> User Registered : ${footer.added} </div>
-			<div> contact us @ shrikant_soni@hotmail.com </div>
+			<div> Total hits: ${footer.total} </div>
+			<div> User Registered: ${footer.added} </div>
+			<div> Contact us @ shrikant_soni@hotmail.com </div>
 		</div>
 	</div>
 </div>
